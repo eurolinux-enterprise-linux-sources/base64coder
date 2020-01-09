@@ -2,7 +2,7 @@
 
 Name:           base64coder
 Version:        20101219
-Release:        10%{?dist}
+Release:        9%{?dist}
 Summary:        Fast and compact Base64 encoder/decoder Java library
 License:        EPL or LGPLv2+ or GPLv2+ or ASL 2.0+ or BSD
 BuildArch:      noarch
@@ -43,9 +43,6 @@ sed -i 's/\r//g' README.txt CHANGES.txt
 %files javadoc -f .mfiles-javadoc
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 20101219-10
-- Mass rebuild 2013-12-27
-
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 20101219-9
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
